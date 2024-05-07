@@ -1,0 +1,73 @@
+//feature-style-five
+.feature-style-five {
+  text-align: center;
+  background: linear-gradient(
+    180deg,
+    rgba($theme-color, 0.1) 0%,
+    rgba(145, 59, 255, 0) 100%
+  );
+  padding: 40px 33px;
+  position: relative;
+  z-index: 3;
+  &::before {
+    content: "";
+    position: absolute;
+    background: url(../img/shape/topograph-1c.svg) no-repeat;
+    width: 100%;
+    height: 0px;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    @include transition(0.3s);
+  }
+  .icon {
+    display: inline-block;
+    width: 86px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+    // border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -ms-border-radius: 5px 5px 5px 5px;
+    -o-border-radius: 5px 5px 5px 5px;
+    position: relative;
+    z-index: 1;
+    background-color: #050d36;
+  }
+  .sect-title-two {
+    &:hover {
+      color: $theme-color;
+      text-decoration: underline;
+    }
+  }
+  &:hover {
+    background: linear-gradient(
+      180deg,
+      rgba(145, 59, 255, 0.2) 0%,
+      rgba($theme-color, 0.5) 100%
+    );
+    &::before {
+      height: 100%;
+    }
+    .icon {
+      background: rgba($prime-color, 0.5);
+    }
+  }
+
+  @media (max-width: 1200px) {
+    padding: 40px 15px;
+  }
+}
+
+//feature-img-wrapper
+
+.feature-img-wrapper {
+  @media (max-width: 1600px) {
+    img {
+      width: 100%;
+    }
+  }
+}

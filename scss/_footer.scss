@@ -1,0 +1,21 @@
+.copyright-three {
+  background: none;
+  border-top: 1px solid rgba($white, 0.1);
+  .fot-list {
+    li {
+      &:last-child {
+        margin-right: 0;
+      }
+      margin-right: 30px;
+      a {
+        padding-left: 0;
+        &::before {
+          display: none;
+        }
+        &::after {
+          display: none;
+        }
+      }
+    }
+  }
+}

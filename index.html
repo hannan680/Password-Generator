@@ -1,0 +1,950 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="keywords" content="password, tool, generator, passcode, 2FAs" />
+    <meta name="description" content="Password Generator Tool" />
+    <title>Password Generator Tool</title>
+    <meta property="og:site_name" content="Password Generator Tool" />
+    <meta property="og:url" content="" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Password Generator Tool" />
+    <meta name="og:image" content="img/ogg.png" />
+    <!-- For IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- For Resposive Device -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- For Window Tab Color -->
+    <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#913BFF" />
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#913BFF" />
+    <!-- iOS Safari -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="#913BFF" />
+
+    <!-- <link rel="manifest" href="site.webmanifest" /> -->
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png" />
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- CSS here -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="fonts/custom-font/css/clash-display.css" />
+    <link rel="stylesheet" href="fonts/bootstrap-icons/font-css.css" />
+    <link rel="stylesheet" href="css/slick.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/magnific-popup.css" />
+    <link rel="stylesheet" href="css/metisMenu.css" />
+    <link rel="stylesheet" href="css/aos.css" />
+    <link rel="stylesheet" href="css/spacing.css" />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+
+  <body>
+    <div class="main-page-wrapper">
+      <div id="preloader">
+        <div class="preloader">
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+      <!-- preloader end  -->
+      <!-- offcanvas start  -->
+      <div
+        class="offcanvas offcanvas-top theme-bg"
+        tabindex="-1"
+        id="offcanvasTop"
+        aria-labelledby="offcanvasTop"
+      >
+        <div class="offcanvas-header">
+          <a data-bs-dismiss="offcanvas" aria-label="Close">
+            <i class="fas fa-times search-close" id="search-close"></i>
+          </a>
+        </div>
+      </div>
+      <!-- offcanvas end  -->
+
+      <!-- header-area start -->
+      <header class="theme-main-menu theme-menu-three pt-25">
+        <div class="top-header pb-25">
+          <div class="container">
+            <div class="row align-items-center">
+              <div
+                class="col-xl-4 col-lg-3 text-start d-none d-lg-inline-block"
+              >
+                <div class="logo-area">
+                  <a href="index.html"
+                    ><img src="img/logo/header-logo-1.png" alt="Header-logo"
+                  /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="main-header-area">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-6 d-lg-none d-md-block">
+                <div class="logo-area">
+                  <a href="index.html"
+                    ><img src="img/logo/header-logo-1.png" alt="Header-logo"
+                  /></a>
+                </div>
+              </div>
+              <div class="col-xxl-8 col-lg-10 d-none d-lg-block">
+                <nav class="navbar navbar-expand-lg">
+                  <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                  >
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div
+                    class="collapse navbar-collapse"
+                    id="navbarSupportedContent"
+                  >
+                    <ul class="navbar-nav list-none ps-0 mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#aboutUs">About</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#featuresSection">Features</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#faqSection">FAQ's</a>
+                      </li>
+                    </ul>
+                  </div>
+                </nav>
+              </div>
+              <div class="col-xxl-4 col-lg-2 col-6 text-end">
+                <ul
+                  class="right-nav mb-0 d-flex align-items-center justify-content-end"
+                >
+                  <li>
+                    <div class="hamburger-menu">
+                      <a class="round-menu" href="javascript:void(0);">
+                        <i class="bi bi-list"></i>
+                      </a>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- /.theme-main-menu -->
+      </header>
+      <!-- header-area end -->
+
+      <!-- slide-bar start -->
+      <aside class="slide-bar">
+        <div class="close-mobile-menu">
+          <a href="javascript:void(0);">
+            <i class="fas fa-times"></i>
+          </a>
+        </div>
+        <!-- offset-sidebar start -->
+        <div class="offset-sidebar">
+          <div class="offset-widget offset-logo mb-30">
+            <a href="index.html">
+              <img src="img/logo/header-logo-1.png" alt="logo" />
+            </a>
+          </div>
+          <div class="offset-widget mb-40">
+            <div class="info-widget">
+              <h4 class="offset-title mb-20">ABOUT TOOL</h4>
+              <p class="mb-30">
+                Safeguard your online accounts with our intuitive Password
+                Generator Tool. Create unique, random passwords tailored to your
+                needs effortlessly. Never compromise on security again.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- offset-sidebar end -->
+        <!-- side-mobile-menu start -->
+        <nav class="side-mobile-menu">
+          <ul id="mobile-menu-active">
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+              <a href="#aboutUs">About</a>
+            </li>
+            <li>
+              <a href="#featuresSection">Features</a>
+            </li>
+            <li>
+              <a href="#faqSection">FAQ's</a>
+            </li>
+          </ul>
+        </nav>
+        <!-- side-mobile-menu end -->
+      </aside>
+      <div class="body-overlay"></div>
+      <!-- slide-bar end -->
+
+      <main>
+        <!--theme-banner-two start-->
+        <div
+          class="theme-banner-three pt-100 pb-155 pt-lg-120 pb-lg-100 pt-md-80 pb-md-40"
+        >
+          <img
+            class="banner-shape shape-one d-none d-sm-inline-block"
+            src="img/shape/star-3b.svg"
+            alt="shape"
+          />
+          <img
+            class="banner-shape shape-two d-none d-lg-inline-block"
+            src="img/shape/star-4b.svg"
+            alt="shape"
+          />
+          <img
+            class="banner-shape shape-three d-none d-sm-inline-block"
+            src="img/shape/star-2.svg"
+            alt="shape"
+          />
+          <img
+            class="banner-shape shape-four d-none d-md-inline-block"
+            src="img/shape/star-4b.svg"
+            alt="shape"
+          />
+          <img
+            class="banner-shape shape-five"
+            src="img/shape/star-7c.svg"
+            alt="shape"
+          />
+          <img
+            class="banner-shape shape-six d-none d-xl-inline-block"
+            src="img/hero/hero-shape-3a.svg"
+            alt="shape"
+          />
+          <img
+            class="banner-shape shape-seven d-none d-xl-inline-block"
+            src="img/hero/hero-shape-3b.svg"
+            alt="shape"
+          />
+
+          <div class="container">
+            <div class="row gx-4 gx-xxl-5 align-items-center">
+              <div class="col-xl-6 col-md-6">
+                <div
+                  class="theme__content__two text-md-start text-center mb-45"
+                >
+                  <h4 class="hero-sub-title mb-25">Elevate Your Security</h4>
+                  <h1 class="main-title-two">
+                    Generate Strong
+                    <br />
+                    Passwords
+                    <span>Effortlessly</span>
+                  </h1>
+                  <a class="theme_btn" href="#password-generator"
+                    >Try the Tool</a
+                  >
+                </div>
+              </div>
+              <div class="col-xl-6 col-md-6">
+                <div data-tilt class="hero-ilustration-wrapper mb-45">
+                  <img src="img/hero/hero-3c.svg" alt="ilus" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--theme-banner-two end-->
+
+        <!--about-section start-->
+        <section class="about-techy bg-shape-3c pb-105 pb-lg-10" id="aboutUs">
+          <img
+            class="about-shape-3c shape-1b d-none d-xl-inline-block"
+            src="img/shape/star-3b.svg"
+            alt="shape"
+          />
+          <img
+            class="about-shape-3c shape-2b d-none d-md-inline-block"
+            src="img/shape/star-4b.svg"
+            alt="shape"
+          />
+          <img
+            class="about-shape-3c shape-3b d-none d-lg-inline-block"
+            src="img/shape/star-4b.svg"
+            alt="shape"
+          />
+          <img
+            class="about-shape-3c shape-4b"
+            src="img/shape/star-7c.svg"
+            alt="shape"
+          />
+          <img
+            class="about-shape-3c shape-5b d-none d-xl-inline-block"
+            src="img/shape/star-4b.svg "
+            alt="shape"
+          />
+          <div class="container">
+            <div class="row gx-4 gx-xxl-5 align-items-center">
+              <div
+                class="col-lg-6"
+                data-aos="fade-right"
+                data-aos-delay="100"
+                style="
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+                "
+              >
+                <!-- Password Generator -->
+                <div class="password-container" id="password-generator">
+                  <h2>Password Generator Tool</h2>
+                  <div class="wrapper">
+                    <div class="input-box">
+                      <input type="text" disabled />
+                      <span class="material-symbols-rounded">copy_all</span>
+                    </div>
+                    <div class="pass-indicator"></div>
+                    <div class="pass-length">
+                      <div class="details">
+                        <label class="title">Password Length</label>
+                        <span></span>
+                      </div>
+                      <input
+                        type="range"
+                        min="1"
+                        max="30"
+                        value="15"
+                        step="1"
+                      />
+                    </div>
+                    <div class="pass-settings">
+                      <label class="title">Password Settings</label>
+                      <ul class="options">
+                        <li class="option">
+                          <input type="checkbox" id="lowercase" checked />
+                          <label for="lowercase">Lowercase (a-z)</label>
+                        </li>
+                        <li class="option">
+                          <input type="checkbox" id="uppercase" />
+                          <label for="uppercase">Uppercase (A-Z)</label>
+                        </li>
+                        <li class="option">
+                          <input type="checkbox" id="numbers" />
+                          <label for="numbers">Numbers (0-9)</label>
+                        </li>
+                        <li class="option">
+                          <input type="checkbox" id="symbols" />
+                          <label for="symbols">Symbols (!-$^+)</label>
+                        </li>
+                        <li class="option">
+                          <input type="checkbox" id="exc-duplicate" />
+                          <label for="exc-duplicate">Exclude Duplicate</label>
+                        </li>
+                        <li class="option">
+                          <input type="checkbox" id="spaces" />
+                          <label for="spaces">Include Spaces</label>
+                        </li>
+                      </ul>
+                    </div>
+                    <button class="generate-btn">Generate Password</button>
+                  </div>
+                </div>
+
+                <!-- <div
+                  data-tilt
+                  class="about-img-wrapper-three text-lg-end position-relative mb-45"
+                >
+                  <img
+                    class="main-img"
+                    src="img/about/ilus-1c.svg"
+                    alt="ilustrate"
+                  />
+                </div> -->
+              </div>
+              <div class="col-lg-6" data-aos="fade-left" data-aos-delay="100">
+                <div class="block-style-seven pl-90 mb-45 mt-50 pl-md-0">
+                  <h6 class="sub-title-two mb-20">About Tool</h6>
+                  <h2 class="sect-title mb-20">
+                    Empower Your Security with Our Password Generator Tool
+                  </h2>
+                  <p>
+                    Safeguard your online accounts with our intuitive Password
+                    Generator Tool. Create unique, random passwords tailored to
+                    your needs effortlessly. Never compromise on security again.
+                  </p>
+                  <div class="icon-box">
+                    <span><img src="img/icon/icon-28c.svg" alt="icon" /></span>
+                    <span><img src="img/icon/icon-29c.svg" alt="icon" /></span>
+                    <span><img src="img/icon/icon-30c.svg" alt="icon" /></span>
+                    <span><img src="img/icon/icon-31c.svg" alt="icon" /></span>
+                    <span><img src="img/icon/icon-32c.svg" alt="icon" /></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--about-section end-->
+        <!--our-features start-->
+        <section
+          class="gradient-bg our-services service-bg-three pt-95 pb-55 pt-lg-55 pb-lg-15"
+          id="featuresSection"
+        >
+          <img
+            class="service-shape-3c"
+            src="img/shape/line-round-6b.svg"
+            alt="shape"
+          />
+          <div class="container">
+            <div
+              class="row gx-4 gx-xxl-5 align-items-center justify-content-center"
+            >
+              <div class="col-xl-5 col-lg-6 col-md-8">
+                <div class="section-title text-center mb-55">
+                  <h3 class="sect-title mb-25" data-aos="fade-up">
+                    Your Key to Stronger Security
+                  </h3>
+                  <p data-aos="fade-up" data-aos-delay="100">
+                    Simplify your online security with our multifunctional
+                    Password Generator Tool. Create unique, random passwords,
+                    manage them securely, and protect your digital identity with
+                    ease.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="row gx-4 gx-xxl-5">
+              <div class="col-lg-4 col-md-6" data-aos="fade-up">
+                <div class="feature-style-five mb-45">
+                  <div class="icon mb-30">
+                    <img src="img/icon/icon-33c.svg" alt="icon" />
+                  </div>
+                  <h2 class="mb-20">
+                    <a class="sect-title-two" href="#">Password Generation</a>
+                  </h2>
+                  <p>
+                    Effortlessly create strong, randomized passwords tailored to
+                    your security needs.
+                  </p>
+                </div>
+              </div>
+              <div
+                class="col-lg-4 col-md-6"
+                data-aos="fade-up"
+                data-aos-delay="100"
+              >
+                <div class="feature-style-five mb-45">
+                  <div class="icon mb-30">
+                    <img src="img/icon/icon-34c.svg" alt="icon" />
+                  </div>
+                  <h2 class="mb-20">
+                    <a class="sect-title-two" href="">Customization Options</a>
+                  </h2>
+                  <p>
+                    Fine-tune your passwords with adjustable settings, including
+                    length, character types, and complexity.
+                  </p>
+                </div>
+              </div>
+              <div
+                class="col-lg-4 col-md-6"
+                data-aos="fade-up"
+                data-aos-delay="200"
+              >
+                <div class="feature-style-five mb-45">
+                  <div class="icon mb-30">
+                    <img src="img/icon/icon-35c.svg" alt="icon" />
+                  </div>
+                  <h2 class="mb-20">
+                    <a class="sect-title-two" href="#">Quick Copy</a>
+                  </h2>
+                  <p>
+                    Easily copy generated passwords to your clipboard for
+                    immediate use.
+                  </p>
+                </div>
+              </div>
+              <div
+                class="col-lg-4 col-md-6"
+                data-aos="fade-up"
+                data-aos-delay="100"
+              >
+                <div class="feature-style-five mb-45">
+                  <div class="icon mb-30">
+                    <img src="img/icon/icon-36c.svg" alt="icon" />
+                  </div>
+                  <h2 class="mb-20">
+                    <a class="sect-title-two" href="#">Password Regeneration</a>
+                  </h2>
+                  <p>
+                    Generate new passwords with a single click for added
+                    security.
+                  </p>
+                </div>
+              </div>
+              <div
+                class="col-lg-4 col-md-6"
+                data-aos="fade-up"
+                data-aos-delay="200"
+              >
+                <div class="feature-style-five mb-45">
+                  <div class="icon mb-30">
+                    <img src="img/icon/icon-37c.svg" alt="icon" />
+                  </div>
+                  <h2 class="mb-20">
+                    <a class="sect-title-two" href="#">Multi-Platform Access</a>
+                  </h2>
+                  <p>
+                    Use the tool across devices for convenient password
+                    management.
+                  </p>
+                </div>
+              </div>
+              <div
+                class="col-lg-4 col-md-6"
+                data-aos="fade-up"
+                data-aos-delay="300"
+              >
+                <div class="feature-style-five mb-45">
+                  <div class="icon mb-30">
+                    <img src="img/icon/icon-38c.svg" alt="icon" />
+                  </div>
+                  <h2 class="mb-20">
+                    <a class="sect-title-two" href="#">Password Protection</a>
+                  </h2>
+                  <p>
+                    Safeguard your credentials with advanced security measures
+                    and encryption protocols.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--our-features end-->
+        <!--Unique Password start-->
+        <section
+          class="teachy-work work-bg-three pt-150 pb-30 pt-lg-50 pb-lg-20"
+        >
+          <img
+            class="work-shape-c shape-one"
+            src="img/shape/star-7c.svg"
+            alt="shape"
+          />
+          <img
+            class="work-shape-c shape-two"
+            src="img/shape/star-7c.svg"
+            alt="shape"
+          />
+          <img
+            class="work-shape-c shape-three"
+            src="img/shape/star-8c.svg"
+            alt="shape"
+          />
+          <img
+            class="work-shape-c shape-four"
+            src="img/shape/star-8c.svg"
+            alt="shape"
+          />
+          <div class="container">
+            <div class="row gx-4 gx-xxl-5 align-items-center pb-30">
+              <div class="col-lg-6">
+                <div
+                  data-tilt
+                  class="feature-img-wrapper mb-45"
+                  data-aos="fade-up"
+                >
+                  <img src="img/ilustration/ilus-01.svg" alt="ilustration" />
+                </div>
+              </div>
+              <div class="col-lg-6 order-lg-first">
+                <div class="section-title mb-45 pe-xxl-5" data-aos="fade-up">
+                  <h6 class="sub-title-two mb-20">Unique Passwords</h6>
+                  <h3 class="sect-title mb-25">
+                    Why should my password be unique?
+                  </h3>
+                  <p class="mb-15">
+                    If you use the same password for both your email account and
+                    your bank account login, an attacker only needs to steal one
+                    password to get access to both accounts, doubling your
+                    exposure.
+                  </p>
+                  <p>
+                    If you've used that same password for 14 different accounts,
+                    you're making the attacker's job very, very easy. You can
+                    protect yourself by using a generator to create unique
+                    passwords that are easy to remember.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="row gx-4 gx-xxl-5 align-items-center pt-75 pt-lg-55">
+              <div class="col-lg-6">
+                <div
+                  data-tilt
+                  class="feature-img-wrapper mb-45"
+                  data-aos="fade-up"
+                >
+                  <img src="img/ilustration/ilus-02.svg" alt="ilustration" />
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div
+                  class="block-style-eight mb-45 ps-xxl-5"
+                  data-aos="fade-up"
+                >
+                  <h6 class="sub-title-two mb-20">The Power of Randomness</h6>
+                  <h3 class="sect-title mb-25">
+                    Why should my password be random?
+                  </h3>
+                  <p>
+                    Random passwords are hard to guess and harder for computer
+                    programs to crack. If there's a discernible pattern, the
+                    odds of an attacker using a brute force attack and gaining
+                    access to your account goes up exponentially. Random
+                    passwords might contain a jumble of unrelated characters,
+                    but combining unrelated words also works. That's how the
+                    1Password Strong Password Generator creates passwords that
+                    are easy to remember but still cryptographically strong.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--Unique Password end-->
+
+        <!--security start-->
+        <section class="techy-security pt-75 pb-150 pt-lg-55 pb-lg-60">
+          <div class="container">
+            <div class="row gx-4 gx-xxl-5 justify-content-center">
+              <div class="col-lg-6 col-md-8">
+                <div class="section-title text-center mb-55">
+                  <h6 class="sub-title-two mb-20">Advanced Tech Security</h6>
+                  <h3 class="sect-title" data-aos="fade-up">
+                    Use Password Generator Tool for Strong, Unique Passwords,
+                    Shielding Against Unauthorized Access and Security Threats.
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <div class="row gx-4 gx-xxl-5">
+              <div class="col-lg-12">
+                <div class="ilustration-wrapper" data-aos="zoom-in">
+                  <img
+                    class="w-100"
+                    src="img/ilustration/ilus-03.svg"
+                    alt="ilustration"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!---security end-->
+
+        <!-- Faq Start -->
+        <div
+          class="faq-que-list pt-150 pb-115 pt-lg-60 pb-lg-60"
+          id="faqSection"
+        >
+          <div class="container">
+            <div class="row gx-4 gx-xxl-5">
+              <div class="col-md-6">
+                <div class="accordion accordion-one" id="accordionExample">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                      <button
+                        class="accordion-button"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne"
+                        aria-expanded="true"
+                        aria-controls="collapseOne"
+                      >
+                        How do I generate a strong password with Password
+                        Generator Tool?
+                      </button>
+                    </h2>
+                    <div
+                      id="collapseOne"
+                      class="accordion-collapse collapse show"
+                      aria-labelledby="headingOne"
+                      data-bs-parent="#accordionExample"
+                    >
+                      <div class="accordion-body">
+                        <p>
+                          It’s simple to create a strong password or passphrase
+                          with Password Generator Tool. Just open the password
+                          generator tool page on web, iOS or Android app and
+                          fully customize the password to your needs.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                      <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo"
+                        aria-expanded="false"
+                        aria-controls="collapseTwo"
+                      >
+                        Is Password Generator Tool safe to use?
+                      </button>
+                    </h2>
+                    <div
+                      id="collapseTwo"
+                      class="accordion-collapse collapse"
+                      aria-labelledby="headingTwo"
+                      data-bs-parent="#accordionExample"
+                    >
+                      <div class="accordion-body">
+                        <p>
+                          Yes -- It is safe to use and the generated password
+                          through the tool are encrypted and secure to use, So
+                          feel free to use :)
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                      <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree"
+                        aria-expanded="false"
+                        aria-controls="collapseThree"
+                      >
+                        How can I choose a good password generator?
+                      </button>
+                    </h2>
+                    <div
+                      id="collapseThree"
+                      class="accordion-collapse collapse"
+                      aria-labelledby="headingThree"
+                      data-bs-parent="#accordionExample"
+                    >
+                      <div class="accordion-body">
+                        <p>
+                          Apart from offering multiple customization options, a
+                          good password generator must be open source and
+                          independently audited so anyone can verify how it
+                          works. As hacking techniques advance, a good password
+                          generator must always remain up to date.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="accordion accordion-one" id="accordionTwo">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingSix">
+                      <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseSix"
+                        aria-expanded="false"
+                        aria-controls="collapseSix"
+                      >
+                        Are strong passwords enough to protect my security?
+                      </button>
+                    </h2>
+                    <div
+                      id="collapseSix"
+                      class="accordion-collapse collapse"
+                      aria-labelledby="headingSix"
+                      data-bs-parent="#accordionTwo"
+                    >
+                      <div class="accordion-body">
+                        <p>
+                          A good password manager allows you to easily manage
+                          your online accounts and quickly log in to any website
+                          or app. Your password manager also needs to be open
+                          source so anyone can verify it does what it says. Data
+                          breaches like the one at LastPass reveal technical
+                          mistakes that could have been avoided if LastPass were
+                          open source.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingSeven">
+                      <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseSeven"
+                        aria-expanded="false"
+                        aria-controls="collapseSeven"
+                      >
+                        Can I customize the length and complexity of passwords
+                        generated by the tool?
+                      </button>
+                    </h2>
+                    <div
+                      id="collapseSeven"
+                      class="accordion-collapse collapse"
+                      aria-labelledby="headingSeven"
+                      data-bs-parent="#accordionTwo"
+                    >
+                      <div class="accordion-body">
+                        <p>
+                          Yes, the tool offers customization options, allowing
+                          users to adjust password length and include various
+                          character types to meet their security preferences.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingEight">
+                      <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseEight"
+                        aria-expanded="false"
+                        aria-controls="collapseEight"
+                      >
+                        Is it safe to use the password generator tool on
+                        multiple devices?
+                      </button>
+                    </h2>
+                    <div
+                      id="collapseEight"
+                      class="accordion-collapse collapse"
+                      aria-labelledby="headingEight"
+                      data-bs-parent="#accordionTwo"
+                    >
+                      <div class="accordion-body">
+                        <p>
+                          Yes, the tool ensures secure password generation and
+                          storage across all devices, maintaining the integrity
+                          of your login credentials.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Faq End -->
+
+        <!--call-to-action start-->
+        <section class="call-to-action pt-70 pb-70">
+          <img
+            class="call-shape shape-one"
+            src="img/shape/line-round-8c.svg"
+            alt="shape"
+          />
+          <img
+            class="call-shape shape-two d-none d-lg-inline-block"
+            src="img/icon/icon-39c.svg"
+            alt="icon"
+          />
+          <img
+            class="call-shape shape-three d-none d-lg-inline-block"
+            src="img/icon/icon-40c.svg"
+            alt="icon"
+          />
+          <img
+            class="call-shape shape-four d-none d-lg-inline-block"
+            src="img/icon/icon-41c.svg"
+            alt="icon"
+          />
+          <img
+            class="call-shape shape-five d-none d-lg-inline-block"
+            src="img/icon/icon-42c.svg"
+            alt="icon"
+          />
+          <img
+            class="call-shape shape-six d-none d-lg-inline-block"
+            src="img/icon/icon-43c.svg"
+            alt=""
+          />
+          <img
+            class="call-shape shape-seven d-none d-lg-inline-block"
+            src="img/icon/icon-44c.svg"
+            alt=""
+          />
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-xl-8 col-md-8">
+                <div class="call-to-wrapper">
+                  <h3 class="title-big mb-30" data-aos="fade-up">
+                    Having problem in your security? Try Password Generate Tool
+                  </h3>
+                  <a
+                    class="theme_btn"
+                    data-aos="fade-up"
+                    href="#password-generator"
+                    >Try Now!</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--call-to-action end-->
+      </main>
+      <!--footer-area start-->
+      <div class="copyright-three">
+        <div class="container">
+          <div
+            class="row gx-4 gx-xxl-5 pt-60 align-items-center"
+            style="display: flex; flex-direction: column"
+          >
+            <div class="col-xl-4 col-lg-6 text-center pb-30">
+              <p class="text-white mb-20">© 2024. All rights reserved</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--footer-area end-->
+    </div>
+
+    <!-- JS here -->
+
+    <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+    <script src="js/vendor/jquery-2.2.4.min.js"></script>
+    <script src="js/vendor/popper.min.js"></script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/jquery.supermarquee.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/metisMenu.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/tilt.jquery.min.js"></script>
+    <script src="js/jquery.easypiechart.min.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/jquery.scrollUp.min.js"></script>
+    <script src="js/plugins.js"></script>
+
+    <!--Custom JS here -->
+    <script src="js/main.js"></script>
+    <script src="js/password.js"></script>
+  </body>
+</html>
