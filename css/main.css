@@ -2664,11 +2664,12 @@ label {
   border: 1px solid #ffffff;
   border-radius: 4px;
   overflow: hidden;
+  display: flex;
 }
 
 .input-box input {
   font-family: inherit;
-  width: 86%;
+  flex: 1;
   height: 53px;
   color: #fff;
   background: none;
@@ -2681,7 +2682,7 @@ label {
 }
 
 .input-box span {
-  width: 16%;
+  width: max-content;
   position: absolute;
   right: 0;
   cursor: pointer;
