@@ -19,7 +19,7 @@ const generatePassword = async () => {
   ).map((input) => input.id);
   try {
     const response = await fetch(
-      "https://amused-deer-handbag.cyclic.app/generate-password",
+      "https://texhy-api.vercel.app/generate-password",
       {
         method: "POST",
         headers: {
